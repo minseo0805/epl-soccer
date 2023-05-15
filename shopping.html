@@ -1,0 +1,100 @@
+<!DOCTYPE HTML>
+<html>
+<head> 
+  <meta charset="utf-8"/> <!-- <meta> 라는 태그를 사용하여 고유속성 중 charset 이라는 속성으로 인코딩시 문자코드세트의 설정 역할을 지정 -->
+  <title>축구용품 </title><!-- 축구용품 --> 
+   <style>  
+    * {margin:0px 10px 10px 2px;}  
+   </style>
+   <script> //script를 활용, 마우스를 사진위에 올리면 줌인 떼면 줌아웃 
+    function zoomin(){  //zoomin (마우스 올리면 확대)
+    	//Document.getElementById() 메소드는 주어진 문자열과 일치하는 id 속성을 가진 요소를 찾고, 이를 나타내는 Element 객체를 반환
+        document.getElementById('축구공').width="500" //넓이
+        document.getElementById('축구공').height="400"//높이 
+           }
+    function zoomout(){ //zoomout(마우스 떼면 원래크기)
+        document.getElementById('축구공').width="300"
+        document.getElementById('축구공').height="300"
+    }
+    function zoomin1(){
+        document.getElementById('축구화').width="500"
+        document.getElementById('축구화').height="400"
+           }
+    function zoomout1(){
+        document.getElementById('축구화').width="300"
+        document.getElementById('축구화').height="300"
+    }
+     function zoomin2(){
+        document.getElementById('유니폼').width="500"
+        document.getElementById('유니폼').height="400"
+           }
+    function zoomout2(){
+        document.getElementById('유니폼').width="300"
+        document.getElementById('유니폼').height="300"
+    }
+     function zoomin3(){
+        document.getElementById('키퍼장갑').width="500"
+        document.getElementById('키퍼장갑').height="400"
+           }
+    function zoomout3(){
+        document.getElementById('키퍼장갑').width="300"
+        document.getElementById('키퍼장갑').height="300"
+    }
+    function zoomin4(){
+        document.getElementById('축구스타킹').width="500"
+        document.getElementById('축구스타킹').height="400"
+           }
+    function zoomout4(){
+        document.getElementById('축구스타킹').width="300"
+        document.getElementById('축구스타킹').height="300"
+    }
+    function zoomin5(){
+        document.getElementById('신가드').width="500"
+        document.getElementById('신가드').height="400"
+           }
+    function zoomout5(){
+        document.getElementById('신가드').width="300"
+        document.getElementById('신가드').height="300"
+    }
+    function zoomin6(){
+        document.getElementById('팀조끼').width="500"
+        document.getElementById('팀조끼').height="400"
+           }
+    function zoomout6(){
+        document.getElementById('팀조끼').width="300"
+        document.getElementById('팀조끼').height="300"
+    }
+  </script>
+  
+ </head>
+<body>
+    <font face="휴먼편지체"> <!-- 글씨체 설정 --> 
+    <fieldset> <!--fieldset 태그 사이의 폼들을 하나의 영역으로 묶고 외곽선 그려줌-->
+    <legend><h2>축구용품</h2></legend>  <!--legend 필드셋에 제목을 달아주는 태그-->
+  <ul align=center> <!--align정렬, 가운데로 위치 --> 
+     <img src="images/축구공.jpg"/ width="300" height="300" id="축구공"  onmouseover="zoomin()" onmouseout="zoomout()"><br/>
+    <h3>▲ 축구공([2018년판] 스타 올뉴 폴라리스) 가격 : 37000원</h3><br/> <!--onmouseover 마우스 위에 올리면 나오는 이벤트 효과 -->
+    <br/>
+     <img src="images/축구화.jpg"/ width="300" height="300" id="축구화"  onmouseover="zoomin1()" onmouseout="zoomout1()"><br/>
+     <h3>▲ 축구화(아디다스 코파 문디알) 가격 : 129000원</h3><br/>
+    <br/>
+     <img src="images/유니폼.jpg"/ width="300" height="300" id="유니폼"  onmouseover="zoomin2()" onmouseout="zoomout2()"><br/>
+     <h3>▲ 유니폼(아디다스 유스 레알 마드리드 홈 저지) 가격 : 39500원</h3><br/>
+    <br/>
+     <img src="images/키퍼장갑.jpg"/ width="300" height="300" id="키퍼장갑"  onmouseover="zoomin3()" onmouseout="zoomout3()"><br/>
+     <h3>▲ GK장갑(울스포츠 엘리미네이터 앱솔루트) 가격 :78000원</h3><br/>
+    <br/>
+     <img src="images/축구스타킹.jpg"/ width="300" height="300" id="축구스타킹"  onmouseover="zoomin4()" onmouseout="zoomout4()"><br/>
+     <h3>▲ 축구스타킹(나이키 베이퍼 3 OTC 싸커 스타킹 ) 가격 : 16000원</h3><br/>
+    <br/>
+     <img src="images/신가드.jpg"/ width="300" height="300" id="신가드"  onmouseover="zoomin5()" onmouseout="zoomout5()"><br/>
+     <h3>▲ 신가드(아디다스 X 리플렉스) 가격 : 25000원</h3><br/>
+    <br/>
+     <img src="images/팀조끼.jpg"/ width="300" height="300" id="팀조끼"  onmouseover="zoomin6()" onmouseout="zoomout6()"><br/>
+     <h3>▲ 팀조끼(나이키 트레이닝 BIB) 가격 : 10000원</h3><br/>
+    <br/>
+     </ul>
+     <a href="http://www.crazy11.co.kr"target="_blank"><h3 align="right">더 많은 상품을 보고 싶다면..</h3></a> <!--하이퍼 링크 연결-->
+ </fieldset>
+</body>
+</html>

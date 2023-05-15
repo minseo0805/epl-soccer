@@ -1,0 +1,20 @@
+body { background-color: white; font-size: 0.75em; line-height: 1.2em; }
+
+img { border:none; } 
+
+a { text-decoration: none; }
+
+#logo { color: darkred; font-size: 38px; }
+
+input { color:black; }
+
+nav { background-color:orange; }
+
+nav ul {list-style: none; font-family: Verdana, Geneva, sans-serif; font-size: 14px; font-weight: bold; color:;}
+
+nav a { text-decoration: none; color:black; border-style: }
+
+nav a:hover { color:blue; border-color: blue; }
+
+footer {color:black;}
+

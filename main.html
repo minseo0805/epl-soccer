@@ -1,0 +1,56 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8"/> <!-- <meta> 라는 태그를 사용하여 고유속성 중 charset 이라는 속성으로 인코딩시 문자코드세트의 설정 역할을 지정 -->
+    <title>EPL Soccer 2019</title> <!-- EPL Soccer 2019 --> 
+    <link rel="stylesheet" type="text/css" href="style-size.css"/> <!-- style-size.css 연결 --> 
+    <link rel="stylesheet" type="text/css" href="style-layout.css"/> <!-- style-layout.css 연결 --> 
+    <link rel="stylesheet" type="text/css" href="style-presentation.css"/> <!-- style-presentation.css 연결 --> 
+    </head> 
+<body>
+    <div class="wrap"> <!-- 선택한 요소를 원하는 태그로 감쌈 --> 
+<header>
+     <a id="logo" href="main.html">EPL Soccer 2019</a>  <!-- 로고 --> 
+     <span class="right" style="padding: 30px 10px;">  <!-- 여백 크기 설정  --> 
+    </span>
+</header>
+"
+<nav>
+    <ul> <!-- 메뉴 상단바  --> 
+        <li><a href="club.html" target="display_area">구단소개</a></li> 
+        <li><a href="rank.html" target="display_area">구단순위</a></li>
+        <li><a href="sch.html" target="display_area">일정 및 결과</a></li>
+        <li><a href="news.html" target="display_area">최근뉴스</a></li>
+        <li><a href="shopping.html" target="display_area">축구용품</a></li>
+    </ul>
+</nav>
+
+<hr>
+<article class="left">  <!-- 화면 --> 
+    <iframe name="display_area" src="images/화면.gif" seamless="true" width="700px" height="500px"><!--iframe사용해서 화면-->
+    </iframe> <!--seamless 속성을 지정하면 iframe에 삽입한 웹페이지는 그 부모가 되는 페이지의 일부처럼 동작한다 --> 
+
+
+</article>
+
+<aside class="right">  <!-- 오른쪽 버튼  --> 
+    <input type="button" name="버튼" value="EPL" style="width:83px" onclick="window.open('http://www.premierleague.com/en-gb.html')";> <br/>
+    <input type="button" name="버튼" value="라리가" style="width:83px" onclick="window.open('http://www.lfp.es')";> <br/>
+    <input type="button" name="버튼" value="분데스리가" style="width:83px" onclick="window.open('http://www.bundesliga.de')";> <br/>
+    <input type="button" name="버튼" value="세리에A" style="width:83px" onclick="window.open('http://www.legaseriea.it')";> <br/>
+    <input type="button" name="버튼" value="리그앙" style="width:83px" onclick="window.open('http://www.ligue1.com')";> <br/>
+    <input type="button" name="버튼" value="K리그" style="width:83px" onclick="window.open('http://www.kleague.com')";> <br/>
+   
+   
+</aside>
+
+<hr/>
+
+<footer>
+    <div id="copyright">  <!-- 하단 저작권  --> 
+        <h3>＃EPL Soccer 2019 김민서 WebPage</h3>
+        <h3>＃alstj0506@naver.com</h3>
+</footer>
+</div>
+</body>
+</html>
